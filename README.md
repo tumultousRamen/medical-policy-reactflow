@@ -87,7 +87,7 @@ module.exports = {
 
 ## Usage
 
-1. Upload medical policy PDF
+1. Upload medical policy PDF from _sample_policies_ directory
 2. Wait for GPT analysis
 3. Download structured JSON results
 4. Process includes:
