@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: medical-policy
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./build
+    envVars:
+      - key: NODE_VERSION
+        value: 18.0.0
+      - key: REACT_APP_OPENAI_API_KEY
+        sync: false
