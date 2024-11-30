@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-  "start": "craco start",
+  "start": "serve -s build",
   "build": "CI=false craco build",
+  "dev": "craco start",
   "test": "craco test",
   "eject": "react-scripts eject"
 },
